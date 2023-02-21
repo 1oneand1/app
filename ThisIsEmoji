@@ -1,0 +1,4 @@
+n = int(input())
+while n < n:
+    n = int(input())*2+1
+print(n / n-1)
