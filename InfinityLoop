@@ -1,0 +1,8 @@
+n = int(input())
+number = 0
+while number < n:
+
+    n = n * 2 + 1
+    n += number
+else:
+    print(number)
