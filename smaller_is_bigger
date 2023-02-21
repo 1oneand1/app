@@ -1,0 +1,15 @@
+from math import ceil
+a, b, c, d = int(input()), float(input()), float(input()), float(input())
+constant = a * b
+persons_without_um = a / 2.85   # smaller procent(2) bigger price
+cost_b = round(persons_without_umbrella) * c
+person_without_something = a / 2.85   # bigger procent smalles(1.8) price
+cost_c = round(person_without_something) * d
+total = constant + cost_b + cost_c
+hmm = total * 10 * 10 * 123
+
+new_new_price = ceil(hmm)
+neew_price = hmm
+hmmm = hmm / 10000
+
+print(hmmm)
